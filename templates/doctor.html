@@ -1,0 +1,19 @@
+{% extends 'base.html' %} {% block content %}
+<h1>doctors list</h1>
+<style>
+    body {
+      background-image: url("https://cdn.pixabay.com/photo/2021/10/11/17/37/doctor-6701410_1280.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+<hr />
+{%for doctor in doctors%}
+<h1>{{doctor.name}}</h1>
+<h1>{{doctor.speciality}}</h1>
+<h1>{{doctor.hospital}}</h1>
+<h1>{{doctor.address}}</h1>
+<hr />
+{%endfor%}
+<script src="" async defer></script>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'base.html' %} {% block content %}
+
+
+<h1>hospital management system</h1>
+<style>
+    body {
+      background-image: url("https://cdn.pixabay.com/photo/2017/01/29/21/16/nurse-2019420_1280.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+{% for hospital in hospitals %}
+<h2>{{hospital.name}}</h2>
+<h3>{{hospital.address}}</h3>
+<h4>{{hospital.phone}}</h4>
+<h5>{{hospital.email}}</h5>
+<img src="hospital.jpg" alt="Image" />
+{% endfor %}
+<script src="" async defer></script>
+{% endblock %}

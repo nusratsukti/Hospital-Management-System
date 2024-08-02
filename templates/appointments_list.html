@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% block content %}
+<h1>appointment list</h1>
+<hr />
+{%for appointment in appointments%}
+<h1>{{appointment.name}}</h1>
+<h2>{{appointment.email}}</h2>
+<h4>{{appointment.date}}</h4>
+<h5>{{appointment.time}}</h5>
+<hr />
+{%endfor%}
+<script src="" async defer></script>
+{% endblock %}
