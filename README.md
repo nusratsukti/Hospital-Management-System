@@ -1,2 +1,3 @@
 # Hospital-Management-System
-The "Hospital Management System" is a Django-based project designed to streamline healthcare management by offering a user-friendly interface for patients, doctors, and hospitals.
+The "Hospital Management System" is a Django-based project designed to streamline healthcare management by offering a user-friendly interface for patients, doctors, and hospitals. Patients can book appointments at specific hospitals and access their profiles and prescriptions. Doctors can create profiles, add hospitals where they consult, and provide prescriptions through the portal. Hospitals can manage their profiles and list their consulting doctors. The system’s frontend is developed using HTML, CSS, and Bootstrap, while the backend relies on an SQL database, ensuring efficient data management and storage.
+
